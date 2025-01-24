@@ -1,5 +1,5 @@
 return {
   {
     "lambdalisue/suda.vim",
-  }
+  },
 }
