@@ -12,6 +12,7 @@ return {
   },
   {
     "lambdalisue/suda.vim",
+    event = "VeryLazy",
   },
   {
     "cuducos/yaml.nvim",

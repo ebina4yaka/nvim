@@ -1,24 +1,30 @@
 return {
   {
-    "scottmckendry/cyberdream.nvim",
+    "olivercederborg/poimandres.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      require("cyberdream").setup({
-        -- Recommended - see "Configuring" below for more config options
-        transparent = true,
-        italic_comments = true,
-        hide_fillchars = true,
-        borderless_telescope = true,
-        terminal_colors = true,
+      require("poimandres").setup({
+        -- leave this setup function empty for default config
+        -- or refer to the configuration section
+        -- for configuration options
+        bold_vert_split = true, -- use bold vertical separators
+        dim_nc_background = false, -- dim 'non-current' window backgrounds
+        disable_background = true, -- disable background
+        disable_float_background = false, -- disable background for floats
+        disable_italics = false, -- disable italics
       })
-      vim.cmd("colorscheme cyberdream") -- set the colorscheme
+    end,
+
+    -- optionally set the colorscheme within lazy config
+    init = function()
+      vim.cmd("colorscheme poimandres")
     end,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "cyberdream",
+      colorscheme = "poimandres",
     },
   },
 }

@@ -1,16 +1,21 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.ai.copilot",
+    "lazyvim.plugins.extras.ai.claudecode",
     "lazyvim.plugins.extras.ai.copilot-chat",
+    "lazyvim.plugins.extras.ai.copilot-native",
     "lazyvim.plugins.extras.coding.yanky",
     "lazyvim.plugins.extras.editor.dial",
+    "lazyvim.plugins.extras.editor.fzf",
     "lazyvim.plugins.extras.editor.inc-rename",
     "lazyvim.plugins.extras.editor.leap",
     "lazyvim.plugins.extras.editor.mini-diff",
     "lazyvim.plugins.extras.editor.mini-files",
     "lazyvim.plugins.extras.editor.mini-move",
+    "lazyvim.plugins.extras.editor.neo-tree",
+    "lazyvim.plugins.extras.editor.overseer",
     "lazyvim.plugins.extras.editor.snacks_explorer",
     "lazyvim.plugins.extras.editor.snacks_picker",
+    "lazyvim.plugins.extras.editor.telescope",
     "lazyvim.plugins.extras.formatting.black",
     "lazyvim.plugins.extras.formatting.prettier",
     "lazyvim.plugins.extras.lang.astro",
@@ -18,6 +23,7 @@
     "lazyvim.plugins.extras.lang.clojure",
     "lazyvim.plugins.extras.lang.cmake",
     "lazyvim.plugins.extras.lang.docker",
+    "lazyvim.plugins.extras.lang.dotnet",
     "lazyvim.plugins.extras.lang.elixir",
     "lazyvim.plugins.extras.lang.git",
     "lazyvim.plugins.extras.lang.go",
@@ -27,8 +33,8 @@
     "lazyvim.plugins.extras.lang.json",
     "lazyvim.plugins.extras.lang.kotlin",
     "lazyvim.plugins.extras.lang.markdown",
+    "lazyvim.plugins.extras.lang.nix",
     "lazyvim.plugins.extras.lang.ocaml",
-    "lazyvim.plugins.extras.lang.omnisharp",
     "lazyvim.plugins.extras.lang.python",
     "lazyvim.plugins.extras.lang.ruby",
     "lazyvim.plugins.extras.lang.rust",
@@ -40,14 +46,21 @@
     "lazyvim.plugins.extras.lang.tex",
     "lazyvim.plugins.extras.lang.toml",
     "lazyvim.plugins.extras.lang.typescript",
+    "lazyvim.plugins.extras.lang.typescript.biome",
+    "lazyvim.plugins.extras.lang.typescript.oxc",
+    "lazyvim.plugins.extras.lang.typescript.tsgo",
+    "lazyvim.plugins.extras.lang.typescript.vtsls",
     "lazyvim.plugins.extras.lang.yaml",
+    "lazyvim.plugins.extras.lsp.neoconf",
     "lazyvim.plugins.extras.test.core",
+    "lazyvim.plugins.extras.ui.dashboard-nvim",
+    "lazyvim.plugins.extras.ui.smear-cursor",
     "lazyvim.plugins.extras.util.dot",
     "lazyvim.plugins.extras.util.mini-hipatterns"
   ],
   "install_version": 7,
   "news": {
-    "NEWS.md": "10960"
+    "NEWS.md": "11866"
   },
   "version": 8
 }
