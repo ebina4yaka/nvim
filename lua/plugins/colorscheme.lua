@@ -26,7 +26,8 @@ return {
     opts = {
       colorscheme = "poimandres",
     },
-    config = function()
+    config = function(_, opts)
+      require("lazyvim").setup(opts)
       local guibg = "#AAFF00"
       local guifg = "#000000"
       vim.cmd("highlight LspReferenceRead  guibg=" .. guibg .. " guifg=" .. guifg)
